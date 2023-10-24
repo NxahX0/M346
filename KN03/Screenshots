@@ -1,0 +1,39 @@
+#KN03
+A) Cloud-innit Daten verstehen
+
+Yaml Datei abgegeben
+
+# B)SSH-key und Cloud-int
+
+Screenshot mit Beweis richtiger Key (2) und Instance
+
+
+Lösung für key 1 & 2 
+![Lösung key1,2](https://github.com/NxahX0/M346/assets/118827507/fa3fc7d4-0e19-4633-8e2b-2601a9b7b0b7)
+
+Lösung Überprüfung Logs
+![Lösung log](https://github.com/NxahX0/M346/assets/118827507/ff3d3c3e-2639-4113-852a-4239787f333a)
+Ssh DB server key2
+![image](https://github.com/NxahX0/M346/assets/118827507/78b91dce-ebf2-4cca-85c3-42af2b0dd76e)
+
+Mariadb admin test
+![image](https://github.com/NxahX0/M346/assets/118827507/68a23486-f85f-4fd0-9bde-8310e0424edc)
+
+Telnet
+![image](https://github.com/NxahX0/M346/assets/118827507/7d383d0a-d296-42d1-a5fd-31358d548908)
+
+Screen Webserver 
+![image](https://github.com/NxahX0/M346/assets/118827507/782c5787-da85-42d7-979b-802f103a5008)
+
+Info.php
+![image](https://github.com/NxahX0/M346/assets/118827507/6c4ce3e9-e9e5-4abf-82b5-63d1169cbc58)
+
+DB.php
+![image](https://github.com/NxahX0/M346/assets/118827507/82fbae6d-db48-4674-b573-0b6c6664b74c)
+
+Adminer
+![image](https://github.com/NxahX0/M346/assets/118827507/45c064d8-fd7d-4d7e-8f8e-69b77e736b43)
+
+
+
+
