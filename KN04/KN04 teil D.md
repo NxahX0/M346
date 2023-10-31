@@ -23,3 +23,10 @@ da Volumen nicht gelöscht werden.
 S3:
 
 warm passt, da das Bild nur manchmal aufgerufen wird. Es zeigt Persistenz, da das Bild weiterhin existiert, solange es nicht gelöscht wird.
+
+
+Volumen ändern
+![Alt text](<KN04 Volumen ändern.png>) 
+
+Website 
+![Alt text](<KN04 php bild.png>)
