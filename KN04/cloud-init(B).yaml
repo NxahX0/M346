@@ -1,0 +1,38 @@
+#cloud-config
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCP5v1Q6JsOg9SnibCpIA+6la/eZueMizy44DhiIrPKCHeVHdS4u++wTQTKR23X3bawSZggslcKmj+2V9XCnxt+mCOIu8tlN56w9Uj3Og3KQBiCDvnSwexgDuD/5/j1S7w+T7kyr0RmZYcXFW5458wIy9PHIFgd/dlmt6uJCbjWsDfGgYyyPwpKQYl0pYKaKBs3WDsjLq6wWHZwRd/IZ2t8FvhY2nIQqOCxymmlLIgfMOfOLYDo/C78alYde3nO3aEXWlTsc8HrYyA5gL+g6skNcsv7uz0ROsj5Fhw/P+ytQXTr7asqAhHZ2R7Fg4Drc4zd5iXeZo4plaTGIBhFzE4n aws-key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key       
+ssh_pwauth: false
+disable_root: false 
+
+package_update: true
+
+packages:
+  - apache2
+  - php
+  - libapache2-mod-php
+
+write_files:
+  - path: /var/www/html/image.php
+    content: |
+      <?php
+      $ihrname = "Noah Scheidegger";
+      ?>
+
+      <html>
+        <head>
+          <title><?php echo($ihrname); ?></title>
+        </head>
+        <body>
+          Ein schönes Bild.
+          <br />
+          <img src="https://noah1235.s3.amazonaws.com/diamond-1857736_1280.png" />
+          <p>Dieses Bild kommt aus dem Internet.</p>
+        </body>
+      </html>
