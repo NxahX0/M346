@@ -15,11 +15,11 @@ wenn diese Instanz gelöscht wird.
 
 EBS Zusätzliches Volumen:
 
-I sthot, da es die zusätzlichen Elemente zu EBS root darstellt,
+Ist hot, da es die zusätzlichen Elemente zu EBS root darstellt,
 was das Betriebssystem ist. Es zeigt sich durch Persistenz aus,
 da Volumen nicht gelöscht werden.
 
 
 S3:
 
-warm passt, da das Bild nur manchmal aufgerufen wird. Es zeigt Persistenz, da das Bild weiterhin existiert, solange es nicht gelöscht wird.
+Warm passt, da das Bild nur manchmal aufgerufen wird. Es zeigt Persistenz, da das Bild weiterhin existiert, solange es nicht gelöscht wird.
